@@ -96,13 +96,13 @@ button:hover {
 
     <div>
       <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" onclick="getInfo()" class="signupbtn">Sign Up</button>
+      <button type="submit" onclick="registerUser()" class="signupbtn">Sign Up</button>
     </div>
   </div>
 </form>
     <script>
-        let host = "http://localhost:8080"
-        async function getInfo(){
+        let host = "https://ducksservicesignup.onrender.com"
+        async function registerUser(){
             let email = document.getElementById("email").value;
             let user = document.getElementById("user").value;
             let password = document.getElementById("password").value;
